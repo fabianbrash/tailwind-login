@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en" class="min-h-screen pt-12 md:pt-20 pb-6 px-2 md:px-0">
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - Tailwind-login</title>
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet"><link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.0.4/tailwind.min.css'><link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<!-- Header --->
+
+<header class="max-w-lg mx-auto">
+  <a href="#">
+ <h1 class="text-4xl font-bold text-white text-center">Startup</h1>
+  </a>
+</header>
+
+<!-- Main section -->
+<main class="bg-white max-w-lg mx-auto p-8 md:p-12 my-10 rounded-lg shadow-2xl">
+  <section>
+    <h3 class="font-bold text-2xl">Welcome to Startup</h3>
+   <p class="text-gray-600 pt-2">Sign in to your account</p>
+  </section>
+  
+  <section class="mt-10">
+    <form class="flex flex-col" action="">
+      <div class="mb-6 pt-3 rounded bg-gray-200">
+    <label class="block text-gray-700 text-sm font-bold mb-2 ml-3" for="email">Email</label>
+      <input class="bg-gray-200 rounded w-full text-gray-700 focus:outline-none border-b-4 border-gray-300 focus:border-purple-600 transition duration-500 px-3 pb-3" type="text" name="email" />
+      </div>
+      <div class="mb-6 pt-3 rounded bg-gray-200">
+    <label class="block text-gray-700 text-sm font-bold mb-2 ml-3" for="password">Password</label>
+    <input class="bg-gray-200 rounded w-full text-gray-700 focus:outline-none border-b-4 border-gray-300 focus:border-purple-600 transition duration-500 px-3 pb-3" type="password" name="password" />
+  </div>
+      <div class="flex justify-end">
+        <a href="#" class="text-sm text-purple-600 hover:text-purple-700 hover:underline mb-6">Forgot your password?</a>
+      </div>
+      <button class="bg-purple-600 rounded hover:bg-purple-700 text-white font-bold py-2 shadow-lg hover:shadow-xl transition duration-200" type="submit">Sign In</button
+    </form>
+        </section>
+      </main>
+    
+    <div class="max-w-lg mx-auto text-center mt-12 mb-6">
+      <p class="text-white">Don't have an account? <a href="#" class="font-bold hover:underline">Sign up</a>.</p>
+    </div>
+    
+    <!-- Footer -->
+    
+    <footer class="max-w-lg mx-auto flex justify-center text-white ">
+      <a href="#" class="hover:underline">Contact</a>
+      <span class="mx-3 my-auto"><svg class="w-4 h-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
+  <path fill-rule="evenodd" d="M6.625 2.655A9 9 0 0119 11a1 1 0 11-2 0 7 7 0 00-9.625-6.492 1 1 0 11-.75-1.853zM4.662 4.959A1 1 0 014.75 6.37 6.97 6.97 0 003 11a1 1 0 11-2 0 8.97 8.97 0 012.25-5.953 1 1 0 011.412-.088z" clip-rule="evenodd" />
+  <path fill-rule="evenodd" d="M5 11a5 5 0 1110 0 1 1 0 11-2 0 3 3 0 10-6 0c0 1.677-.345 3.276-.968 4.729a1 1 0 11-1.838-.789A9.964 9.964 0 005 11zm8.921 2.012a1 1 0 01.831 1.145 19.86 19.86 0 01-.545 2.436 1 1 0 11-1.92-.558c.207-.713.371-1.445.49-2.192a1 1 0 011.144-.83z" clip-rule="evenodd" />
+<path fill-rule="evenodd" d="M10 10a1 1 0 011 1c0 2.236-.46 4.368-1.29 6.304a1 1 0 01-1.838-.789A13.952 13.952 0 009 11a1 1 0 011-1z" clip-rule="evenodd" />
+</svg>
+  
+</span>
+      <a href="#" class="hover:underline">Privacy</a>
+    </footer>
+<!-- partial -->
+  
+</body>
+</html>

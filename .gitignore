@@ -82,7 +82,8 @@ out
 
 # Nuxt.js build / generate output
 .nuxt
-dist
+# codepen I need this
+# dist
 
 # Gatsby files
 .cache/
